@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home/widgets/appbar_home.dart';
+import 'home/widgets/scroll_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         children: [
           AppBarHome(),
+          ScrollListHome(),
         ],
       ),
     );
