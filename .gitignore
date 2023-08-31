@@ -3,13 +3,12 @@
 .metadata
 .dart_tool
 .idea
-android
+.android
 build
 analysis_options.yaml
 flutter_application_1.iml
 pubspec.lock
 pubspec.yaml
-assets
 # Miscellaneous
 *.class
 *.log
