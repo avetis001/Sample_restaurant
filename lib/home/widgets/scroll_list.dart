@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home/widgets/carousel_home.dart';
 import 'package:flutter_application_1/home/widgets/pagination_carousel.dart';
+import 'package:flutter_application_1/home/widgets/type_of_order_home.dart';
 
 class ScrollListHome extends StatefulWidget {
   const ScrollListHome({super.key});
@@ -16,6 +17,7 @@ class _ScrollListHomeState extends State<ScrollListHome> {
       children: [
         CarouselHome(),
         PaginationCarousel(),
+        OrderType(),
       ],
     );
   }

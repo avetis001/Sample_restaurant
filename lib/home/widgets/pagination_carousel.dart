@@ -11,7 +11,7 @@ class _PaginationCarouselState extends State<PaginationCarousel> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(left: 140),
+      margin: const EdgeInsets.only(left: 140, top: 24, bottom: 24),
       child: Row(
         children: [
           Padding(
