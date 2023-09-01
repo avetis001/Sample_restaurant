@@ -62,7 +62,10 @@ flutter:
   assets:
     # - images/a_dot_burr.jpeg
     - assets/icons/appbaricon.png
-    - assets/icons/closeappbar.png
+    - assets/images/Image.png
+    - assets/images/Image2.png
+    - assets/images/Image3.png
+    
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

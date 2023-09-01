@@ -12,8 +12,11 @@ class _AppBarHomeState extends State<AppBarHome> {
   Widget build(BuildContext context) {
     return Container(
       height: 56,
-      padding: const EdgeInsets.only(left: 16, right: 16),
-      margin: const EdgeInsets.only(top: 50),
+      padding: const EdgeInsets.only(
+        left: 16,
+        right: 16,
+      ),
+      margin: const EdgeInsets.only(top: 50, bottom: 5),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
