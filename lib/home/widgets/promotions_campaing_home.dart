@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/home/widgets/promotion_item_one.dart';
+import 'package:flutter_application_1/home/widgets/promotions_item_two.dart';
 
 class PromptionsCompaingHome extends StatefulWidget {
   const PromptionsCompaingHome({super.key});
@@ -22,6 +24,11 @@ class _PromptionsCompaingHomeState extends State<PromptionsCompaingHome> {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(bottom: 16),
+            child: PromotionItemOne(),
+          ),
+          PromotionsItemTwo(),
         ],
       ),
     );
