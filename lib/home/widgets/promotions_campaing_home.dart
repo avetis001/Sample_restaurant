@@ -28,7 +28,10 @@ class _PromptionsCompaingHomeState extends State<PromptionsCompaingHome> {
             padding: EdgeInsets.only(bottom: 16),
             child: PromotionItemOne(),
           ),
-          PromotionsItemTwo(),
+          Padding(
+            padding: EdgeInsets.only(bottom: 16),
+            child: PromotionsItemTwo(),
+          ),
         ],
       ),
     );

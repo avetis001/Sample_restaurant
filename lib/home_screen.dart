@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home/widgets/appbar_home.dart';
+import 'package:flutter_application_1/home/widgets/bottom_navbar_home.dart';
 import 'home/widgets/scroll_list.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ScrollListHome(),
         ],
       ),
+      bottomNavigationBar: BottomNavbarHome(),
     );
   }
 }
