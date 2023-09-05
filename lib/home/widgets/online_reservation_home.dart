@@ -11,11 +11,10 @@ class _OnlineReservationHomeState extends State<OnlineReservationHome> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.only(top: 12),
+      margin: const EdgeInsets.only(top: 12, left: 16, right: 16),
       child: Container(
         padding: const EdgeInsets.only(top: 16, bottom: 16),
-        // height: 150,
-        width: 350,
+        width: 370,
         child: const Column(
           children: [
             Row(
