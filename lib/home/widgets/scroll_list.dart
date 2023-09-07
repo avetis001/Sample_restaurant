@@ -15,9 +15,7 @@ class ScrollListHome extends StatefulWidget {
 class _ScrollListHomeState extends State<ScrollListHome> {
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 672,
-      // width: 500,
+    return Expanded(
       child: ListView(
         children: const [
           CarouselHome(),

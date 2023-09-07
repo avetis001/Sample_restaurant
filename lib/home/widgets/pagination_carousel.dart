@@ -12,50 +12,50 @@ class _PaginationCarouselState extends State<PaginationCarousel> {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(left: 140, top: 24, bottom: 24),
-      child: Row(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(6.0),
-            child: GestureDetector(
-              child: Container(
-                height: 2,
-                width: 20,
-                color: Colors.grey,
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(6.0),
-            child: GestureDetector(
-              child: Container(
-                height: 2,
-                width: 20,
-                color: Colors.grey,
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(6.0),
-            child: GestureDetector(
-              child: Container(
-                height: 2,
-                width: 20,
-                color: Colors.grey,
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(6.0),
-            child: GestureDetector(
-              child: Container(
-                height: 2,
-                width: 20,
-                color: Colors.grey,
-              ),
-            ),
-          ),
-        ],
-      ),
+      // child: Row(
+      //   children: [
+      //     Padding(
+      //       padding: const EdgeInsets.all(6.0),
+      //       child: GestureDetector(
+      //         child: Container(
+      //           height: 2,
+      //           width: 20,
+      //           color: Colors.grey,
+      //         ),
+      //       ),
+      //     ),
+      //     Padding(
+      //       padding: const EdgeInsets.all(6.0),
+      //       child: GestureDetector(
+      //         child: Container(
+      //           height: 2,
+      //           width: 20,
+      //           color: Colors.grey,
+      //         ),
+      //       ),
+      //     ),
+      //     Padding(
+      //       padding: const EdgeInsets.all(6.0),
+      //       child: GestureDetector(
+      //         child: Container(
+      //           height: 2,
+      //           width: 20,
+      //           color: Colors.grey,
+      //         ),
+      //       ),
+      //     ),
+      //     Padding(
+      //       padding: const EdgeInsets.all(6.0),
+      //       child: GestureDetector(
+      //         child: Container(
+      //           height: 2,
+      //           width: 20,
+      //           color: Colors.grey,
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
